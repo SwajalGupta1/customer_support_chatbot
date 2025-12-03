@@ -1,5 +1,6 @@
 import streamlit as st
-from backend.rag_pipeline import answer_question
+import customer_support_chatbot.backend.rag_pipeline
+
 
 st.set_page_config(page_title="Customer Support Chatbot", layout="wide")
 st.title("🛍️ Customer Support Chatbot (Flipkart-Style)")
