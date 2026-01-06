@@ -30,28 +30,32 @@ This project implements an **AI-powered customer support chatbot** using a Retri
 
 ##  Project Structure
 
-customer_support_chatbot/
-│
-├── backend/
-│ ├── init.py
-│ └── rag_pipeline.py
-│
-├── frontend/
-│ ├── init.py
-│ └── streamlit_app.py
-│
-├── embeddings/
-│ ├── chroma/ # Prebuilt vector DB
-│ └── create_embeddings.py
-│
-├── data/
-│ └── flipkart_faq.csv
-│
-├── scripts/
-│ └── check_dataset.py
-│
-├── requirements.txt
-└── .gitignore
+- customer_support_chatbot/
+- │
+- ├── backend/
+- │ ├── init.py
+- │ └── rag_pipeline.py
+- │
+- ├── frontend/
+- │ ├── init.py
+- │ └── streamlit_app.py
+- │
+- ├── embeddings/
+- │ ├── chroma/ # Prebuilt vector DB
+- │ └── create_embeddings.py
+- │
+- ├── data/
+- │ └── flipkart_faq.csv
+- │
+- ├── scripts/
+- │ └── check_dataset.py
+- │
+- ├── requirements.txt
+- └── .gitignore
+
+
+## Streamlit URL
+https://customersupportchatbot-3ufwaear58fk5rvvyxxhhv.streamlit.app/
 
 
 
